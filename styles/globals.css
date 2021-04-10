@@ -1,0 +1,1029 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* header css  */
+/* nav.navbar.navbar-inverse.showNav {
+  height: 70px;
+} */
+
+/* .viewStyle{
+  width: 70%;
+  height: 353px;
+  position: relative;
+  border-radius: 10px;
+} */
+/* 
+.view_right ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 40px;
+} */
+/* .navbar {
+    position: relative;
+     min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+} */
+
+nav.navbar.navbar-inverse {
+  padding: 8px 0px 8px 0px;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+div#showRight{
+    margin: 94px 0 0 0;
+}
+
+p#work {
+  text-align: center;
+  margin-top: 8%;
+  font-size: 24px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0px;
+  margin: 30px 0px 100px 0px;
+}
+/* css use in header */
+/* .bg-dark {
+  background-color: #8444BC !important;
+  position: fixed;
+  z-index: 1;
+  width: 100%; 
+} */
+
+.bg-dark.showNav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  z-index: 1;
+  width: 100%;
+  background-color: #e92645 !important;
+}
+.showMenu ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 40px 0px 40px;
+  text-align: center;
+  position: relative;
+  right: 1%;
+}
+div#paper {
+  background-color: #e85e6b;
+  min-height: 700px;
+  margin: 0px 0px 0px 0px;
+  padding: 40px 0px 40px 0px
+}
+
+button#calender {
+  display: inline-block;
+  padding: 19px 25px;
+  max-width: 40%;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #2b2a2a;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 6px #000;
+  margin-left: 41%;
+  margin-top: 3%;
+}
+button#calender:hover {
+  background-color: #2b2a2a;
+  box-shadow: 0 5px #2b2a2a;
+  transform: translateY(4px);
+}
+img.calenderImg {
+  /* color: #fff; */
+  background-color: azure;
+}
+
+button#shop {
+  display: inline-block;
+  padding: 18px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #2b2a2a;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 6px #000;
+  /* margin-left: 41%; */
+  margin-top: 2%;
+  margin-top: 2%;
+  margin: 30px 0px;
+  position: relative;
+  left: 41%;
+}
+
+button#shop:hover {
+  background-color: #2b2a2a;
+  box-shadow: 0 5px #2b2a2a;
+  transform: translateY(4px);
+}
+img.shopImg {
+  /* color: #fff; */
+  background-color: azure;
+}
+h6#heading {
+  letter-spacing: 0px;
+  text-align: center;
+  font-weight: 800;
+  margin: 40px 0px 40px 0px;
+}
+
+div#slider1 {
+  /* margin: 0px 28px 32px 20px; */
+  padding: 34px 14px 0px 18px;
+}
+div#IconBlog {
+  padding: 15px 0px 0px 0px;
+  text-align: center;
+}
+span#blogContain {
+  position: relative;
+  top: 20px;
+  color: black;
+  font-weight: 400;
+}
+div#navbarScroll\ showHeaderNav {
+  margin-left: 5%;
+  font-size: 13px;
+  font-weight: 800;
+}
+div#navbarScroll\ showHeaderNav ul li a:hover {
+  background-color: #201d23;
+}
+
+/* Maincomponent css start 10-03-2021 */
+ 
+  /* div#maincomponent {
+    padding: 90px 0px 0px 0px;
+  } */
+
+/* end the css */
+
+/* Rendmonth page css start*/
+  .alert.alert-success.showContain {
+    color: black;
+    background-color: #fff;
+    border-color: aliceblue;
+    left: 10%;
+  }
+/* end the css */
+
+/* Hr css start */
+hr#hr {
+    width: 80%;
+    position: relative;
+    right: 10%;
+    border-top-color: darkblue;
+}
+/* end the css */
+
+/* Rent btn css start */
+  button#choose1 {
+    display: inline-block;
+    padding: 11px 35px;
+    max-width: 38%;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #2b2a2a;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 6px #000;
+    margin-left: 41%;
+    margin-top: 2%;
+  }
+  button#choose11 {
+    display: inline-block;
+    padding: 11px 35px;
+    max-width: 38%;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #2b2a2a;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 6px #000;
+    margin-left: 3%;
+    margin-top: 2%;
+  }
+  div#mainbtn11 {
+    position: relative;
+    bottom: 0%;
+    padding: 25px 5px;
+}
+
+button#choose11:hover {
+  background-color: #2b2a2a;
+  box-shadow: 0 5px #2b2a2a;
+  transform: translateY(4px);
+}
+
+button#choose11:active {
+  background-color: #8444BC;
+  box-shadow: 0 5px #8444bc;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+
+
+button#choose111 {
+  display: inline-block;
+  padding: 11px 35px;
+  max-width: 38%;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #2b2a2a;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 6px #000;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+div#mainbtn111 {
+  position: relative;
+  padding: 10px 10px 10px 10px;
+}
+
+button#choose111:hover {
+background-color: #2b2a2a;
+box-shadow: 0 5px #2b2a2a;
+transform: translateY(4px);
+}
+
+button#choose2 {
+  display: inline-block;
+    padding: 11px 35px;
+    max-width: 98%;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #2b2a2a;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 6px #000;
+    /* margin-left: 238%; */
+    margin-top: 20%;
+    margin-bottom: 10px;
+}
+div#mainbtn2 {
+  position: relative;
+  bottom: 5%;
+}
+
+button#choose2:hover {
+  background-color: #2b2a2a;
+  box-shadow: 0 5px #2b2a2a;
+  transform: translateY(4px);
+}
+
+  div#mainbtn1 {
+    position: relative;
+    bottom: 5%;
+}
+
+button#choose1:hover {
+  background-color: #2b2a2a;
+  box-shadow: 0 5px #2b2a2a;
+  transform: translateY(4px);
+}
+p#p1 {
+  font-size:20px;
+  padding: 10px 0px 10px 0px;
+}
+/* end the css */
+
+/* Month game plan start csss */
+  p#showp1 {
+    text-align: center;
+    color: #8444bc;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  h5#showh5 {
+    font-size: 24px;
+    text-align: center;
+}
+div#showImg {
+  text-align: center;
+}
+p#showp {
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 13px;
+  font-weight: 700;
+}
+div#showContain1 {
+    padding: 28px 0px 28px 28px;
+}
+a#monthPlanchoose1 {
+  display: inline-block;
+  padding: 10px 20px;
+  max-width: 40%;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #2b2a2a;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 6px #000;
+  margin-left: 0%;
+  margin-top: 5%;
+}
+div#showspacing {
+  margin: 25px 0px 0px 0px;
+}
+a#monthPlanchoose1:hover {
+  background-color: #2b2a2a;
+  box-shadow: 0 5px #2b2a2a;
+  transform: translateY(4px);
+}
+div#mainMontPlan {
+  padding: 160px 0px;
+}
+/* end the css */
+
+/* Admin consol type css start*/
+div#consoletype_form {
+  /* padding: 80px 0px 0px 80px; */
+  padding: 132px 10px 0px 185px;
+  margin: 10px 91px;
+  position: revert;
+}
+  /* div#consoletype_formdilogbox {
+     
+} */
+  div#consoltypeheading {
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    font-weight: 700;
+}
+.input{
+  display:none;
+}
+div#Aveter {
+  position: relative;
+  bottom: 45px;
+  left: 40%;
+}
+div#Aveterdilogbox {
+  position: relative;
+  bottom: 50px;
+  left: 102%;
+}
+/* end the css */
+
+/* Rent week css start */
+div#rentweek{
+  padding: 180px 0px 0px 0px;
+}
+div#DisplayAllconsolData {
+  padding: 100px 0px 0px 240px;
+  width: 100%;
+}
+/* end css */
+
+/* Form card start css */
+form#fromCard {
+  position: absolute;
+  right: 25%;
+}
+span#card ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  right: 50%;
+  margin: 10px 5px 0px 5px;
+}
+/* end css */
+
+/* console Product css start */
+  div#consolProductId {
+    padding: 0px 0px 0px 115px;
+    margin: 10px 91px;
+    position: revert;
+  }
+  div#consolproductDisplayId {
+    position: absolute;
+    padding: 12px 0px 0px 165px;
+    width: 100%;
+}
+/* end the css */
+
+/* Week plan css start */
+div#weekplanId {
+  padding: 180px 0px 0px 0px;
+}
+/* end the css */
+
+/* Rent mont css start */
+ div#rentmontId {
+  padding: 180px 0px 0px 0px;
+}
+/* end the css */
+
+/* Accessories css start */
+div#accessories_formdilogbox {
+  padding: 60px 25px 0px 25px;
+  overflow: hidden;
+  margin: 0px 0px 0px 0px;
+  height: 520px;
+}
+/* end the css */
+
+/* rent month start css */
+div#rentmonthId {
+  padding: 160px 0px;
+}
+/* end the css */
+
+/* month console product start css */
+div#monthproductId {
+  padding: 160px 0px;
+}
+div#showmonthproductItem {
+  position: relative;
+  top: 30px;
+  left: 5%;
+}
+/*  */
+
+/* month product game start css */
+div#monthproductgameId {
+  padding: 160px 0px;
+}
+div#monthgameId {
+  position: relative;
+  top: 30px;
+  left: 5%;
+  text-align: center;
+}
+div#gameId {
+  position: relative;
+  top: 20px;
+  margin: 30px 0px 0px 0px;
+}
+div#divCenter {
+  background-color: #e92645;
+  padding: 0px 470px 10px 470px;
+  position: relative;
+  left: 4%;
+}
+/* end the css */
+
+/* accessories start css */
+div#accessoriesId {
+  padding: 160px 0px;
+}
+/* end the css */
+
+/* header start cart css */
+div#cartshowId {
+  overflow-x: hidden;
+  width: 410px;
+  background-color: #e2d4d4;
+  padding: 0;
+}
+/* end the css */
+
+div#cartManage {
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 18px 0px 0px;
+  line-height: 25px;
+}
+img#img {
+  /* border: 4px solid #6b6464;
+  border-radius: 18px; */
+  box-shadow: 11px 10px 10px;
+}
+p#total {
+  /* display: flex;
+  position: absolute;
+  bottom: 1 ; */
+  padding: 10px 10px 10px;
+  background: #eee;
+  color: currentcolor;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: end;
+  /* height: 200px; */
+  min-height: 150px
+  /* display: flex;
+  justify-content: space-between */
+}
+
+h3#cartName {
+  background: black;
+  color: yellow;
+  font-weight: 700;
+  font-style: italic;
+
+}
+
+/* manage cart css start */
+button#proceedId {
+  background-color: #FC2779;
+  width: 100%;
+  padding: 12px 12px 12px 12px;
+  transition: all .2s linear;
+}
+
+button#proceedId:hover {
+  transform: scale(1.05)
+}
+
+span#grandtotalId {
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 3px;
+  font-size: 24px;
+}
+div#managetotalId {
+  top: 28%;
+  position: relative;
+  
+}
+div#manageCartId {
+  background-color: bisque;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 5px 5px 4px;
+}
+div#showrowId {
+  display: flex;
+  justify-content: flex-end;
+}
+/* end the css */
+
+
+/* Login Register */
+
+.inputContainer{
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #111;
+  transition: all 1s linear ;
+}
+
+/* .active, .btn:hover */
+
+.inputContainer:hover{
+  border-bottom: 2px solid #eee;
+}
+.inputContainer input{
+  width: 100%;
+  background: #000;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: #fff;
+}
+.subscribe button{
+  background: #000;
+  border: none;
+  outline: none;
+  color: #eee;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+}
+.subscribe{
+  display: flex;
+}
+.subscribe:hover, .subscribe button:hover{
+  color: #8444bc;
+}
+
+
+.chooseOTPbtn{
+  margin-top: 10%;
+  display: inline-block;
+  padding: 11px 35px;
+  max-width: 38%;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #2b2a2a;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 6px #000;
+  /* marg */
+  margin-top: 1%;
+}
+
+.chooseOTPbtn:hover {
+  background-color: #2b2a2a;
+  box-shadow: 0 5px #2b2a2a;
+  transform: translateY(4px);
+}
+
+div#chkout{
+      padding:40px;
+
+}
+
+/* div#chkoutA{
+  padding:80px;
+
+} */
+div#manageCheckouCartId {
+  border: 1px solid indianred;
+  box-shadow: 18px 11px 25px;
+}
+
+div#paymentId {
+  position: fixed;
+  left: 58%;
+}
+ nav#navid { 
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+} 
+
+/* nav#navid{
+  background-color: '#e92645';
+} */
+
+div#chkoutA{
+  padding: 17px 30px
+}
+
+
+section#sectionId {
+  padding: 86px 0px 0px 0px;
+}
+
+button#ordersummryId {
+  /* background-color: #FC2779;
+  width: 100%;
+  padding: 12px 12px 12px 12px; */
+  transition: all .2s linear;
+}
+
+button#ordersummryId:hover {
+  transform: scale(1.05)
+}
+
+div#showgameId {
+  padding: 94px 0 0 0;
+}
+
+div#gameinfoId {
+  position: relative;
+   bottom: 6px;
+  /* margin-top: '100px' */
+}
+/*  */
+
+/* gameinfo start css */
+h5#gamein_h5Id {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: currentColor;
+  text-shadow: 4px 15px 15px currentColor;
+}
+img#buyImgId {
+  position: relative;
+  left: 100%;
+  border: 1px solid #800b0b;
+  border-radius: 48px;
+  box-shadow: 8px 12px 13px #653434;
+  cursor: pointer;
+}
+img#rentImgId {
+  border: 1px solid #800b0b;
+  border-radius: 48px;
+  box-shadow: 8px 12px 13px #653434;
+  cursor: pointer;
+}
+
+p#des1 {
+  /* text-align: center; */
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+h5#BuyGameId {
+  position: relative;
+  left: 140%;
+  padding: 8px 0px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: crimson;
+}
+
+h5#RentGameId {
+  padding: 8px 0px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: crimson;
+  position: relative;
+  left: 30%;
+}
+/* end the css */
+
+
+/* gameinfo start css 30/03/2021 */
+h5#gamein_h5Id {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: currentColor;
+  text-shadow: 4px 15px 15px currentColor;
+}
+img#buyImgId {
+  position: relative;
+  left: 100%;
+  border: 1px solid #800b0b;
+  border-radius: 48px;
+  box-shadow: 8px 12px 13px #653434;
+  cursor: pointer;
+}
+img#buyImgId:hover {
+  background-color: #2b2a2a;
+  box-shadow: 0 5px #2b2a2a;
+  transform: translateY(4px);
+}
+img#rentImgId {
+  border: 1px solid #800b0b;
+  border-radius: 48px;
+  box-shadow: 8px 12px 13px #653434;
+  cursor: pointer;
+}
+img#rentImgId:hover {
+  background-color: #2b2a2a;
+  box-shadow: 0 5px #2b2a2a;
+  transform: translateY(4px);
+}
+
+p#des1 {
+  /* text-align: center; */
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+h5#BuyGameId {
+  position: relative;
+  left: 140%;
+  padding: 8px 0px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: crimson;
+}
+
+h5#RentGameId {
+  padding: 8px 0px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: crimson;
+  position: relative;
+  left: 30%;
+}
+/* end the css */
+
+div#registerid{
+padding: 100px 0px 0px 0px;
+}
+
+/* PLUS address btn css start */
+a#plusaddressID {
+  padding: 4px 0 4px 14px;
+  font-family: JioMedium;
+  font-size: 14px;
+  color: rgba(0,0,0,.5);
+  line-height: 16px;
+  cursor: pointer;
+}
+
+div#change_addressId {
+  width: 330px;
+}
+p#selectaddressId {
+  padding: 14px 0px 0px 0px;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  right: 25%;
+  font-family: sans-serif;
+}
+hr#hrId {
+  width: 380px;
+  background-color: aquamarine
+}
+div#listId {
+  width: 100%;
+}
+span#saveId {
+  padding: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-family: sans-serif;
+  bottom: 11px
+}
+p#address_ChangeId {
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  bottom: 35px;
+}
+p#savechangeaId {
+  font-family: JioMedium;
+  font-size: 14px;
+  color: rgba(0,0,0,.6);
+  word-wrap: break-word;
+  word-break: break-word;
+  color: #000;
+  margin: 0px 0px 0px 45px;
+  text-transform: uppercase;
+}
+
+h2#orderId {
+  font-family: JioBold;
+  font-size: 24px;
+  color: #000;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+div#selectdeliveryId {
+  position: relative;
+  bottom: 45px;
+  font-family: JioMedium;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  left: 8%;
+}
+div#selectdeliveryaddressId {
+  padding: 0px 0px 0px 0px;
+  font-size: 15px;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+a#addchangebtnId {
+  margin: 20px 0px 0px 420px;
+}
+p#totalitemId {
+  font-family: JioMedium;
+  font-size: 14px;
+  color: rgba(0,0,0,.5);
+  line-height: 20px;
+  position: relative;
+  left: 38%;
+}
+span#totalId {
+  font-family: JioMedium;
+  font-size: 18px;
+  color: #000;
+  line-height: 22px;
+  padding: 24px 0px 0px 0px;
+}
+p#basketId {
+  font-family: JioBold;
+  font-size: 18px;
+  color: #000;
+  line-height: 22px;
+  margin: 0px 0 5px;
+  padding: 0px 0px 0px 40px;
+  font-weight: 700;
+}
+
+div#gameinfoId {
+  word-break: break-word;
+  font-family: JioMedium;
+  font-size: 15px;
+  color: #000;
+  line-height: 10px;
+  font-weight: 400;
+}
+h2#paymentdetailId {
+  font-family: JioBold;
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+div#mainpaymetnId {
+  background: 0 0;
+  font-family: JioMedium;
+  font-size: 14px;
+  color: rgba(0,0,0,.5);
+  line-height: 24px;
+  margin: 0;
+  float: left;
+  text-align: left;
+}
+div#showallsavingId {
+  font-family: JioMedium;
+  font-size: 14px;
+  color: #000;
+  line-height: 24px;
+}
+button#makepaymentId {
+  margin: 10px 0px;
+  width: 100%;
+}
+spna#closeId {
+  padding: 0px 0px 0px 300px;
+  margin: 0px 0px 0px 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  top: 5px;
+  color: cornflowerblue;
+  cursor: pointer;
+}
+div#addaddressId {
+  padding: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+div#change_New_addressId {
+  width: 345px;
+}
+p#showuserdetailId {
+  font-family: JioMedium;
+  font-size: 14px;
+  word-wrap: break-word;
+  word-break: break-word;
+  color: #000;
+  margin: 0px 0px 0px 20px;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+div#form_Id {
+  line-height: 20px;
+}
+div#form_Id {
+  line-height: 20px;
+  position: relative;
+  width: 91%;
+  left: 11px;
+}
+/* 01/04/2021 */
+div#showallsavingDataId {
+  padding: -3px 1px 0px 0px;
+  margin-left: 235px;
+}
+
+/*  */
+
